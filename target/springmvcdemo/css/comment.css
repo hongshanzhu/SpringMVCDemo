@@ -1,0 +1,880 @@
+	/*评论模块*/
+.newscommon_box {
+	z-index:1
+}
+.newscommon_box h3 span {
+	display:block;
+	float:left;
+	border-bottom:5px solid #c00;
+	position:relative;
+	bottom:0
+}
+.newscommon_box h3 strong {
+	font-size:12px
+}
+.newscommon_box h3 strong em {
+	color:#c00;
+	font-weight:800
+}
+.newscommon_box .comment_post {
+	height:155px;
+	position:relative;
+	float:none;
+	border-bottom:0;
+	margin:16px 0 0
+}
+.newscommon_box .comment_post ul {
+	position:relative;
+	
+	overflow:hidden
+}
+.newscommon_box .comment_post ul li {
+	margin:0 0 5px;
+	*margin:0 0 8px;
+	text-align:left;
+	float:left
+}
+.newscommon_box .comment_post ul li textarea {
+	font-size:12px;
+	height:60px;
+	color:#666;
+	width:655px;
+	color:#666;
+	font-size:14px;
+	padding:10px;
+	border:1px solid #e4e4e4;
+	background:url(http://image.bitautoimg.com/uimg/news/images/news_all121228.png) no-repeat center 8px #FFF;
+	outline:0;
+	resize:none
+}
+.newscommon_box .comment_post ul li label {
+	margin:0 20px 0 5px;
+	*margin:0 20px 0 1px
+}
+.newscommon_box .comment_post ul li.li_width {
+	margin:2px 0 0
+}
+.newscommon_box .comment_post ul li.note_w {
+	position:absolute;
+	left:300px;
+	top:113px;
+	color:#c00
+}
+.newscommon_box .comment_post ul li.note_r {
+	position:absolute;
+	left:300px;
+	top:113px;
+	color:#c00
+}
+.newscommon_box .comment_post ul li.note_l {
+	position:absolute;
+	left:300px;
+	top:113px;
+	color:#c00
+}
+.newscommon_box .comment_login ul li.note_w {
+	position:absolute;
+	left:256px;
+	top:113px;
+	color:#c00
+}
+.newscommon_box .comment_login ul li.note_r {
+	position:absolute;
+	left:300px;
+	top:113px;
+	color:#c00
+}
+.newscommon_box .comment_login ul li.note_l {
+	position:absolute;
+	left:309px;
+	top:113px;
+	color:#c00
+}
+.newscommon_box #dCommenList {
+	clear:both;
+	float:left;
+	width:100%
+}
+.newscommon_box .more_bottom {
+	clear:both;
+	text-align:right;
+	color:#999;
+	padding:0 20px;
+	background:#f1f1f1;
+	font-size:14px;
+	height:55px;
+	line-height:55px;
+	font-weight:bold
+}
+.newscommon_h3_box {
+	position:relative;
+	border-bottom:5px solid #0A4E8A;
+	height:52px
+}
+.newscommon_box .more a:link,.newscommon_box .more a:visited {
+	color:#666
+}
+.newscommon_box .more a:hover {
+	color:#c00
+}
+.newscommon_box .more {
+	top:20px;
+	right:0;
+	position:absolute
+}
+.newscommon_box .comment_post ul li.comment_submit .button_106_26 {
+	width:80px;
+	height:35px;
+	line-height:35px;
+	font-size:18px
+}
+.newscommon_box .comment_post ul li.button_86_25 {
+	width:106px;
+	height:26px;
+	line-height:26px;
+	font-size:14px
+}
+.newscommon_box .comment_post ul li.comment_submit {
+	float:right
+}
+.newscommon_box .comment_post ul li.synchro_link {
+	color:#999;
+	margin:1px 10px 0
+}
+.newscommon_box .comment_post ul li.synchro_link a {
+	display:inline-block;
+	width:30px;
+	height:30px;
+	background:url(http://image.bitauto.com/uimg/index120401/images2/fenxiang_icon.png) no-repeat 0 0;
+	margin:-3px 10px 0 0;
+	vertical-align:middle
+}
+.newscommon_box .comment_post ul li.synchro_link a.qq {
+	background-position:-38px 0
+}
+.newscommon_box .comment_post ul li.synchro_link a.qq:hover {
+	background-position:-38px -40px
+}
+.newscommon_box .comment_post ul li.synchro_link a.sina {
+	background-position:0 0
+}
+.newscommon_box .comment_post ul li.synchro_link a.sina:hover {
+	background-position:0 -40px
+}
+.newscommon_box .comment_post ul li.synchro_link a.qq_close {
+	background-position:-38px -80px
+}
+.newscommon_box .comment_post ul li.synchro_link a.sina_close {
+	background-position:0 -80px
+}
+.newscommon_box .comment_post ul li.comment_submit label {
+	margin:1px 0 0 0;
+	float:right
+}
+.newscommon_box .comment_post ul li .input_text {
+	border:1px solid #e4e4e4;
+	margin-right:10px;
+	width:98px;
+	height:16px
+}
+.checkbox input {
+	vertical-align:middle;
+	margin:-2px 3px 1px 0
+}
+.newscommon_box .CommentList{ overflow:hidden;}
+.newscommon_box .comment {
+	clear:both;
+	padding:20px 0 0;
+	margin-bottom:-1px;
+	border-bottom:1px solid #e9e9e9;
+	position:relative;
+	height:100%;
+	overflow:hidden;
+}
+.newscommon_box .comment .building_box {
+	height:30px;
+	float:right;
+	font-family:"microsoft yahei";
+	z-index:5;
+	margin:0 0 -30px;
+	position:relative;
+	z-index:2
+}
+.newscommon_box .comment .building_box .buliding_no {
+	color:#999
+}
+.newscommon_box .comment .building_box .buliding_ding {
+	height:30px;
+	color:#666;
+	display:none;
+	float:right
+}
+.newscommon_box .comment .building_box .buliding_ding a {
+	height:26px;
+	display:block;
+	background:#fff url(http://image.bitauto.com/uimg/index120401/images2/ding_icon5.png) no-repeat 9px 1px;
+	overflow:hidden;
+	cursor:pointer;
+	line-height:26px;
+	font-size:14px;
+	padding:0 13px 0 37px;
+	text-decoration:none;
+	color:#c00;
+	border:1px solid #c00;
+	border-radius:18px;
+	float:right
+}
+.newscommon_box .comment .building_box .buliding_ding a:hover {
+	background-color:#c00;
+	background-position:9px -38px;
+	color:#fff
+}
+.newscommon_box .comment .building_box .buliding_ding a.over {
+	background-color:#fff;
+	background-position:9px -77px;
+	cursor:default;
+	color:#999;
+	border:1px solid #e1e1e1
+}
+.newscommon_box .comment .building_box .buliding_ding em {
+	font-size:14px;
+	font-family:Microsoft YaHei,SimHei;
+	margin:4px 0 0;
+	display:block
+}
+.newscommon_box .comment .content_box {
+	width:575px;
+	float:right
+}
+.newscommon_box .comment .name {
+	height:19px;
+	color:#999;
+}
+.newscommon_box .comment .name i{
+	font-style:normal;
+}
+.newscommon_box .comment .name strong {
+	font-weight:800;
+	font-size:15px;
+	margin:0 10px 0 0
+}
+.newscommon_box .comment .name strong a:link,.newscommon_box .comment .name strong a:visited {
+	color:#333
+}
+.newscommon_box .comment .name strong a:hover {
+	color:#c00
+}
+.newscommon_box .comment .name .time {
+	margin:0 10px
+}
+.newscommon_box .comment .name a:link,.newscommon_box .comment .name a:visited {
+	color:#029046
+}
+.newscommon_box .comment .name a:hover {
+	color:#c00
+}
+.newscommon_box .comment .content p {
+	font-size:14px;
+	line-height:2;
+	padding:0;
+	text-align:justify;
+	text-justify:auto;
+	margin:12px 0 0;
+	word-break:break-all;
+	word-wrap:break-word
+}
+.newscommon_box .comment .comment-reply {
+	height:auto;
+	color:#CCC;
+	zoom:1
+}
+.newscommon_box .comment .comment-reply .opt-area {
+	height:22px;
+	float:right;
+	margin:10px 10px 17px 0;
+	display:inline
+}
+.newscommon_box .comment .comment-reply .opt-area a:link,.newscommon_box .comment .comment-reply .opt-area a:visited {
+	color:#666
+}
+.newscommon_box .comment .comment-reply .opt-area a:hover {
+	color:#c00
+}
+.newscommon_box .comment .comment-reply .opt-area b {
+	float:right;
+	margin:0 7px 0 5px;
+	font-weight:normal!important
+}
+.newscommon_box .comment .comment-reply .support {
+	float:right;
+	background:url(../images/ding_icon2.png) no-repeat 0 0;
+	padding:0 0 0 23px;
+	font-size:14px;
+	font-family:"Microsoft YaHei";
+	color:#999;
+	height:22px;
+	line-height:22px;
+	margin:0 10px 0 0;
+	text-decoration:none;
+	width:32px;
+	position:relative
+}
+.newscommon_box .comment .comment-reply .support:hover {
+	background-position:0 -34px
+}
+.newscommon_box .comment .comment-reply .support em {
+	position:absolute;
+	top:-21px;
+	color:#c00;
+	font-size:12px;
+	left:3px
+}
+.newscommon_box .comment .comment-reply .support span {
+	color:#999
+}
+.newscommon_box .comment .comment-reply a.support:hover span {
+	color:#c00
+}
+.newscommon_box .comment .comment-reply .support_visited {
+	background-position:0 -34px;
+	color:#c00!important
+}
+.newscommon_box .comment .comment-reply a.supported:link,.newscommon_box .comment .comment-reply a.supported:visited,.newscommon_box .comment .comment-reply a.supported:hover {
+	color:#999;
+	text-decoration:none;
+	cursor:default
+}
+.newscommon_box .comment .comment-reply .btn-reply-show {
+	float:right;
+	margin:2px 0 0;
+	cursor:pointer
+}
+.newscommon_box .comment .comment-reply .btn-reply-show span {
+	background:url(../images/ding_icon2.png) no-repeat 0 -70px;
+	width:20px;
+	height:20px;
+	line-height:100px;
+	overflow:hidden;
+	display:block
+}
+.newscommon_box .comment .comment-reply .btn-reply-hide {
+	float:right;
+	margin:2px 0 0
+}
+.newscommon_box .comment .comment-reply .btn-reply-hide span {
+	background:url(../images/ding_icon2.png) no-repeat 0 -109px;
+	width:20px;
+	height:17px;
+	line-height:100px;
+	overflow:hidden;
+	display:block
+}
+.newscommon_box .comment .comment-area-box {
+	height:165px;
+	background:#f7f7f7;
+	position:relative;
+	z-index:1;
+	width:720px;
+	clear:both;
+	border-top:1px solid #e9e9e9
+}
+.newscommon_box .comment .comment-area-box .jiao {
+	width:19px;
+	height:10px;
+	position:absolute;
+	right:11px;
+	top:-10px;
+	background:url(http://image.bitauto.com/uimg/index120401/images2/ding_jiao.png) no-repeat 0 0
+}
+.newscommon_box .comment .comment-area {
+	width:720px;
+	height:143px;
+	background:#F7F7F7;
+	margin:1px 0 0 0;
+	color:#666;
+	padding:15px 0 0 0;
+	position:absolute;
+	left:0;
+	top:0
+}
+.newscommon_box .comment .comment-area .comment_post {
+	height:auto;
+	border:0;
+	position:static;
+	float:none;
+	background:0;
+	margin:0
+}
+.newscommon_box .comment .comment-area .comment_post ul {
+	width:auto;
+	position:static;
+	padding:0;
+	margin:0
+}
+.newscommon_box .comment .comment-area .comment_post ul li.textarea-box {
+	float:none
+}
+.newscommon_box .comment .comment-area li {
+	margin:0 0 10px
+}
+.newscommon_box .comment .comment-area li.textarea-box {
+	position:relative
+}
+.newscommon_box .comment .comment-area li.li_width {
+	float:left;
+	margin:0 0 0 15px;
+	display:inline
+}
+.newscommon_box .comment .comment-area li.note_l {
+	top:124px
+}
+.newscommon_box .comment .comment-area li.note_r {
+	top:124px
+}
+.newscommon_box .comment .comment-area textarea {
+	width:667px;
+	height:78px;
+	color:#666;
+	font-size:14px;
+	padding:10px;
+	border:1px solid #e4e4e4;
+	background:30px #FFF;
+	outline:0;
+	resize:none;
+	margin:0 auto;
+	display:block;
+	color:#999
+}
+.newscommon_box .comment .comment-area textarea.onfocus {
+	border-color:#F60;
+	color:#333
+}
+.newscommon_box .comment .comment-area textarea.onalert {
+	background:#FFFEF5
+}
+.newscommon_box .comment .comment-area .input_text {
+	width:99px;
+	height:23px;
+	line-height:23px;
+	border:1px solid #DADADA;
+	box-shadow:inset 1px 1px 1px #EDEDED;
+	margin-right:5px;
+	padding-left:5px
+}
+.newscommon_box .comment .comment-area .input_text_alert {
+	border-color:#F60;
+	color:#F60
+}
+.newscommon_box .comment .comment-area .input_text_focus {
+	border-color:#F60;
+	color:#333
+}
+.newscommon_box .comment .comment-area .input_check {
+	vertical-align:middle;
+	margin-top:-2px
+}
+.newscommon_box .comment .comment-area .comment_submit {
+	float:right;
+	width:auto;
+	margin:0 15px 0 0
+}
+.newscommon_box .comment .comment-area a.comment-btn-submit:link,.newscommon_box .comment .comment-area a.comment-btn-submit:visited {
+	width:auto;
+	height:26px;
+	border:1px solid #CB6D01;
+	display:block;
+	background:url(http://image.bitautoimg.com/uimg/news/images/comment_btn_bgs.png) repeat-x 0 0;
+	color:#FFF;
+	font-size:14px;
+	line-height:26px;
+	font-weight:bold;
+	text-align:center;
+	padding:0 20px;
+	float:right;
+	margin:0 10px 0 0;
+	display:inline
+}
+.newscommon_box .comment .comment-area a.comment-btn-submit:hover {
+	background:url(http://image.bitautoimg.com/uimg/news/images/comment_btn_bgs.png) repeat-x 0 -26px;
+	text-decoration:none;
+	border-color:#E5800C
+}
+.newscommon_box .comment .comment-area a.comment-btn-submit:active {
+	background:url(http://image.bitautoimg.com/uimg/news/images/comment_btn_bgs.png) repeat-x 0 -52px;
+	text-decoration:none
+}
+.newscommon_box .hotlist_list .comment .content_box .content {
+	width:535px
+}
+.newscommon_box .hotlist_list .comment .building_box .buliding_no {
+	display:none
+}
+.newscommon_box .hotlist_list .comment .building_box .buliding_ding {
+	display:block
+}
+.newscommon_box .hotlist_list {
+	padding:0 0 20px
+}
+.newscommon_box .comment .discuss_quote_box {
+	margin:19px 0 16px;
+}
+.newscommon_box .comment .discuss_quote {
+	background:#f8f8f8;
+	border:1px solid #e9e9e9;
+	clear:both;
+	height:auto;
+	margin:-1px 0 0;
+	padding:17px 20px 37px;
+	position:relative
+}
+.newscommon_box .comment .discuss_quote .discuss_originally {
+	color:#999;
+	padding:0
+}
+.newscommon_box .comment .discuss_quote .discuss_originally .floor {
+	color:#c00
+}
+.newscommon_box .comment .discuss_quote .discuss_originally .date {
+	margin:0 0 0 10px
+}
+.newscommon_box .comment .discuss_quote em {
+	position:absolute;
+	top:15px;
+	right:20px;
+	color:#999
+}
+.newscommon_box .comment .discuss_quote .comment-reply {
+	display:none;
+	position:absolute;
+	bottom:10px;
+	right:20px
+}
+.newscommon_box .comment .discuss_quote:hover .comment-reply {
+	display:block
+}
+.newscommon_box .comment .discuss_quote .comment-reply .opt-area {
+	margin:0
+}
+.newscommon_box .comment .openmore_building {
+	;
+	border:1px solid #ddd;
+	margin:-1px 0 0;
+	height:35px;
+	text-align:center;
+	padding:18px 0 0
+}
+.newscommon_box .comment .openmore_building a {
+	font-family:microsoft yahei;
+	font-size:14px;
+	background:url(http://img3.bitautoimg.com/uimg/index2014/images2/news_content_bg2.png) no-repeat 0 3px;
+	padding:0 0 0 20px
+}
+.newscommon_box .comment .openmore_building a:hover {
+	background-position:0 -33px
+}
+.newscommon_box .comment .discuss_quote_box .comment-area-box {
+	width:638px;
+	border:1px solid #e9e9e9;
+	margin-top:-1px
+}
+.newscommon_box .comment .discuss_quote_box .comment-area-box .jiao {
+	right:20px
+}
+.newscommon_box .comment .discuss_quote_box .comment-area-box .comment-area {
+	width:638px
+}
+.newscommon_box .comment .discuss_quote_box .comment-area-box .comment-area textarea {
+	width:596px
+}
+.newscommon_box .comment .discuss_hover .comment-reply {
+	display:block
+}
+.newscommon_box .comment .title .sinaweibo {
+	background:url(http://image.bitautoimg.com/uimg/news/images/ico_sina_weibo.jpg) no-repeat left center;
+	padding:1px 0 1px 22px
+}
+.newscommon_box .comment_post ul li textarea {
+	width:628px;
+	height:78px;
+	background:  30px #FFF;
+	color:#999
+}
+.newscommon_box .comment_post ul li textarea.onfocus {
+	border-color:#F60;
+	color:#333
+}
+.newscommon_box .comment_post ul li textarea.onalert {
+	background:#FFFEF5
+}
+.newscommon_box .comment_post ul li .input_text {
+	width:99px;
+	height:22px;
+	border:1px solid #e4e4e4;
+	margin-right:5px;
+	padding-left:5px;
+	line-height:22px
+}
+.newscommon_box .comment_post ul li .input_text_alert {
+	border-color:#F60;
+	color:#F60
+}
+.newscommon_box .comment_post ul li .input_text_focus {
+	border-color:#F60;
+	color:#333
+}
+.newscommon_box .comment_post ul li .input_check {
+	vertical-align:middle;
+	margin-top:-2px
+}
+.newscommon_box .comment_post ul li.textarea-box {
+	position:relative
+}
+.newscommon_box .more_bottom {
+	height:42px;
+	background:url(http://image.bitautoimg.com/uimg/news/images/comment_btn_bgs.png) repeat-x 0 -78px;
+	line-height:42px;
+	text-align:center
+}
+a.btn-more-comment:link,a.btn-more-comment:hover,a.btn-more-comment:visited {
+	width:100%;
+	height:42px;
+	display:block;
+	background:url(http://image.bitautoimg.com/uimg/gallery2013/images/g_pic_bgs2.png) repeat-x 0 -81px;
+	overflow:hidden;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none
+}
+a.btn-more-comment em {
+	border-color:#CCC #FFF;
+	border-style:solid;
+	border-width:5px 5px 0;
+	width:0;
+	height:4px;
+	overflow:hidden;
+	float:left;
+	display:inline;
+	cursor:pointer;
+	margin:20px 0 0 7px
+}
+a.btn-more-comment:hover em {
+	border-color:#C00 #FFFFFF
+}
+a.btn-more-comment span {
+	float:left;
+	cursor:pointer;
+	margin:13px 0 0 289px
+}
+.textarea-alert {
+	width:668px;
+	height:80px;
+	position:absolute;
+	top:15px;
+	left:15px;
+	text-align:center;
+	color:#F30;
+	font-size:16px;
+	font-family:"微软雅黑"
+}
+.textarea-alert span {
+	width:43px;
+	height:41px;
+	background:url(http://image.bitautoimg.com/uimg/news/images/ico_comment_alert.png) no-repeat;
+	display:block;
+	margin:0 auto 5px
+}
+.textarea-alert div {
+	text-shadow:0 0 10px #FFF;
+	display:inline;
+	background:#FFF
+}
+.news_side .tab_list {
+	position:absolute;
+	top:5px;
+	right:0
+}
+.news_side .tab_list ul {
+	color:#CCC
+}
+.news_side .tab_list ul li {
+	float:left;
+	margin-right:8px
+}
+.news_side .tab_list ul li.current a:link,.news_side .tab_list ul li.current a:visited,.news_side .tab_list ul li.current a:hover {
+	color:#333;
+	font-weight:bold;
+	text-decoration:none;
+	cursor:default
+}
+.li_width .li_width_f {
+	position:relative;
+	color:#999
+}
+.li_width .li_width_f input {
+	vertical-align:middle
+}
+.li_width .li_width_f b {
+	position:absolute;
+	display:block;
+	width:96px;
+	height:17px;
+	top:0;
+	*top:5px;
+	color:#999;
+	font-weight:normal!important;
+	background:#FFF
+}
+.li_width .li_width_f b.userName {
+	left:6px
+}
+.li_width .li_width_f b.password {
+	left:122px
+}
+.col-side .text_list ul {
+	width:200px
+}
+.con_main h1.con {
+	font-family:Microsoft YaHei;
+	font-size:28px;
+	font-weight:bold;
+	line-height:140%;
+	margin:0;
+	padding:15px 0 0;
+	position:relative;
+	text-align:center;
+	height:auto
+}
+.con_main h1.con a.f12 {
+	font-family:"宋体";
+	font-size:12px;
+	vertical-align:middle;
+	margin:0 0 0 5px;
+	font-weight:400;
+	line-height:28px
+}
+.newscommon_box .title-box {
+	margin-top:0
+}
+#divPostComment .title-box .more {
+	top:21px
+}
+#divPostComment .title-box .more a {
+	font-size:14px;
+	line-height:150%
+}
+#divPostComment .title-box .more a:link em,#divPostComment .title-box .more a:visited em {
+	font-weight:400
+}
+.comment_photo {
+	float:left;
+	width:60px;
+	font-family:"microsoft yahei"
+}
+.comment_photo img {
+	border-radius:33px;
+	width:60px;
+	height:60px;
+	box-shadow:0 0 2px #ccc
+}
+.comment_photo .buliding_no {
+	text-align:center;
+	color:#999;
+	margin:8px 0 0
+}
+
+.button_orange {
+	border:1px #35a2ca solid;
+	font-family:microsoft yahei
+}
+.button_orange a {
+	display:block;
+	text-align:center;
+	color:#fff
+}
+.button_orange a:link,.button_orange a:visited,.button_orange a:hover {
+	color:#fff;
+	background:#35a2ca;
+}
+
+
+.button_gray {
+	border:1px #e2e2e2 solid;
+	font-family:microsoft yahei;
+	text-align:center;
+	color:#999
+}
+.button_gray a {
+	display:block;
+	text-align:center;
+	color:#333
+}
+.button_gray a:link,.button_gray a:visited {
+	background:#fafafa;
+	background:-ms-linear-gradient(top,#fff,#f7f7f7);
+	background:-moz-linear-gradient(top,#fff,#f7f7f7);
+	background:-webkit-gradient(linear,left top, left bottom,from(#fff),to(#f7f7f7));
+	background:-webkit-linear-gradient(top,#fff,#f7f7f7);
+	background:-o-linear-gradient(top,#fff,#f7f7f7)
+}
+.button_gray a:hover {
+	text-decoration:none;
+	background:#fff
+}
+.button_gray a:active {
+	background:#f7f7f7;
+	background:-ms-linear-gradient(top,#f7f7f7,#fff);
+	background:-moz-linear-gradient(top,#f7f7f7,#fff);
+	background:-webkit-gradient(linear,left top, left bottom,from(#f7f7f7),to(#fff));
+	background:-webkit-linear-gradient(top,#f7f7f7,#fff);
+	background:-o-linear-gradient(top,#f7f7f7,#fff)
+}
+.button_disable {
+	text-align:center;
+	border:1px #e2e2e2 solid;
+	color:#ccc
+}
+.input_orange {
+	border:1px #d37002 solid;
+	color:#fff;
+	font-family:microsoft yahei;
+	background:#f18a00;
+	background:-moz-linear-gradient(top,#f79500,#eb7e00);
+	background:-webkit-gradient(linear,left top, left bottom,from(#f79500),to(#eb7e00));
+	background:-webkit-linear-gradient(top,#f79500,#eb7e00);
+	background:-o-linear-gradient(top,#f79500,#eb7e00);
+	cursor:pointer;
+	padding-left:0;
+	text-align:center
+}
+.input_orange:hover {
+	text-decoration:none;
+	background:#feb83e;
+	background:-moz-linear-gradient(top,#feb83e,#f18e1b);
+	background:-webkit-gradient(linear,left top, left bottom,from(#feb83e),to(#f18e1b));
+	background:-webkit-linear-gradient(top,#feb83e,#f18e1b);
+	background:-o-linear-gradient(top,#feb83e,#f18e1b);
+	padding-left:0
+}
+.input_gray {
+	border:1px #e2e2e2 solid;
+	color:#333;
+	font-family:microsoft yahei;
+	background:#fafafa;
+	background:-ms-linear-gradient(top,#fff,#f7f7f7);
+	background:-moz-linear-gradient(top,#fff,#f7f7f7);
+	background:-webkit-gradient(linear,left top, left bottom,from(#fff),to(#f7f7f7));
+	background:-webkit-linear-gradient(top,#fff,#f7f7f7);
+	background:-o-linear-gradient(top,#fff,#f7f7f7);
+	cursor:pointer;
+	padding-left:0;
+	text-align:center
+}
+.input_gray:hover {
+	text-decoration:none;
+	background:#fff;
+	padding-left:0
+}
+
+.addd_more{ margin:20px 0 40px;border-top:1px solid #ddd;overflow:hidden;}
+.addd_more a{ width:178px;height:50px;margin:0 auto;font:18px/50px '';text-align:center;border:1px solid #ddd;border-top:none;background:#f8f8f8;display:block;}
+.addd_more a em{ font-weight:700;}

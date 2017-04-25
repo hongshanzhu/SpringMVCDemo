@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>后台</title>
+  <script src="/res/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+  <link href="/res/css/login.css" rel="stylesheet" type="text/css" />
+
+  <style>
+  	body{ -webkit-font-smoothing:antialiased;font-family:Microsoft Yahei;}
+  	.bg{ overflow:hidden;}
+    .tipsDiv{font-size:14px;text-align:center;margin-top:50px;}
+    .tipsDiv a{font-size:14px;color:blue;}
+	.padA{ padding:0;margin:25px 0 0 150px;}
+	.padC{ text-align:center;color:#ff4242;font:700 16px/26px "Microsoft Yahei";float:left;}
+	.padC .siteLogo{ width:148px;height:50px;margin-top:10px;background:url(http://120.25.12.114/images/siteLogo.png) no-repeat;}
+	
+  </style>
+</head>
+<body>
+
+  <div class="box login magt">    
+    <div class="bg">
+    	<div class="padC"><div class="siteLogo">&nbsp;</div>后台</div>
+      <div class="padA">
+        <div class="dtext"><p>帐号：</p><input name="username" id="username" type="text" size="20" class="inputText" style="width:150px" value=""/></div>
+        <div class="dtext"><p>密码：</p><input name="password" id="password" type="password" size="20" class="inputText" style="width:150px" value=""/></div>
+      </div>
+      <div class="algin dtext padB"><input name="" type="button" onclick="doLogin()" class="but1" value="登陆" /> &nbsp; <input name="" type="reset" class="but2" value="重置" /></div>
+    </div>
+  </div>
+  <script>
+    function doLogin(){
+      var data = {};
+      data.username = $("#username").val();
+      data.password = $("#password").val();
+      data.returl = "http://120.25.12.114/admin/";
+      $.post("/passport/doLoginAjax.jsp",data,function(j){
+        if(j.code == 1){
+          //alert(parent);
+          //if(parent){
+          //parent.location.reload();
+          //}else{
+          location.href = 'http://120.25.12.114/admin/';
+          //}
+        }else{
+          if(j.msg == "你的密码已过期，请修改密码" || j.msg == "你本次登录需要安全验证，验证邮件已发送到你的注册邮箱"){
+            location.reload();
+          }else{
+            alert(j.msg);
+          }
+          //location.reload();
+        }
+      },"json");
+    }
+    function doEnterLogin(e){
+      var keynum;
+      if(window.event){//ie
+        keynum = e.keyCode;
+      }else if(e.which){ // Netscape/Firefox/Opera
+        keynum = e.which;
+      }
+      if(keynum == 13){
+        doLogin();
+      }
+    }
+    $(function(){
+      $("#username").focus();
+      $("#username").bind("keypress",doEnterLogin);
+      $("#password").bind("keypress",doEnterLogin);
+    });
+  </script>
+
+
+
+</body>
+</html>

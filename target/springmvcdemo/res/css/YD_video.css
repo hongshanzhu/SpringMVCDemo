@@ -1,0 +1,87 @@
+body,h1,h2,h3,h4,h5,h6,p,span,div,ul,li,ol,input,textarea,a{ margin:0;padding:0;}
+a{ text-decoration:none;}
+li{ list-style:none;}
+body.YD_video{ width:100%; overflow-x:hidden;}
+/*视频*/
+.body_video{ width:100%; height:361px;}
+.fixed_video{  width:100%; height:400px;}
+/*视频操作*/
+.moden_box{ width:100%; height:100px; border-top:1px solid #d7d7d7;border-bottom:1px solid #d7d7d7; overflow:hidden;}
+.moden_box .moden_box_left{ width:54.8%; margin-left:3%; float:left;}
+.moden_box .moden_box_left p{ font:30px/100px "微软雅黑";white-space:nowrap; width:15em;overflow:hidden;text-overflow:ellipsis;}
+.moden_box .moden_box_left span{ font:24px/24px "宋体"; margin:14px 0 52px; display:block;color:#999; background:url(/res/images/2222.png) no-repeat -12px -141px; padding-left:33px;}
+
+.moden_box .moden_box_right{ float:right; margin-top:8px; margin-right:3.1%;}
+.moden_box .moden_box_right a{ font:20px/20px "宋体";color:#666; padding-top:54px; display:block; float:left; background:url(/res/images/444.png) no-repeat 0px 0px;}
+.moden_box .moden_box_right a.take_a_like{width:44px;margin-left:12px; background-position:center -18px;}
+.moden_box .moden_box_right a.take_a_collection{width:46px; margin-left:51px; background-position:-7px -128px;}
+.moden_box .moden_box_right a.take_a_share{width:49px; margin-left:45px; background-position:-1px -254px;}
+/*视频简介*/
+.about_video{width:97%; border-bottom:25px solid #d7d7d7; padding-left:3%; overflow:hidden;}
+.about_video h3,.correlation_recommend h3,.all_comment h3{height:30px; font:30px/30px "宋体";color:#17cd66; border-left:4px solid #17cd66; padding-left:9px;margin:40px 0;}
+.about_video h4{font:28px/28px "宋体"; color:#666;}
+.about_video span{ font:24px/24px "宋体"; color:#999; float:left;}
+.about_video .video_type{ margin:26px 0 16px; height:20px;}
+.about_video .video_form{ margin-bottom:11px; height:20px;}
+
+.video_type span:first-child{ width:12.5%;}
+.video_form span:first-child{ width:12.5%;}
+
+.video_introduction{ width:100%; overflow:hidden;}
+.video_introduction span{ width:12.5%; display:inline-block; float:left;font:24px/36px "宋体";}
+.video_introduction p{width:87.5%;font:24px/36px "宋体"; color:#999; float:left; margin-bottom:33px;}
+/*相关视频*/
+.correlation_recommend{ padding-left:3%;width:97%; overflow:hidden;border-bottom:25px solid #d7d7d7;}
+.correlation_recommend h3{ position:relative;}
+.correlation_recommend h3 a{ color:#a4a4a4; font:bold 30px/30px "宋体"; position:absolute; right:3%; top:50%; margin-top:-15px;}
+
+.everyone_video{  height:270px;}
+.everyone_video ul{ height:319px;overflow:scroll; overflow-y:hidden;white-space:nowrap;}
+.everyone_video ul li{  width:232px; height:319px;display:inline-block; vertical-align:top; margin-right:20px;}
+.everyone_video ul li:last-child{ margin-right:20px;}
+
+.everyone_video a img{width:232px; height:154px; float:left;}
+.everyone_video ul li a.take_a_http{ width:232px; height:68px; display:block; float:left; font:24px/34px "宋体";color:#222;margin:17px 0;white-space:normal;}
+.everyone_video ul li span{background:url(/res/images/2222.png) no-repeat -13px -141px;padding-left:30px; padding-top:2px; font:20px/24px "宋体"; display:block; float:left; color:#666;}
+
+.all_comment{ width:97%; margin: 0 0 0 3%; overflow:hidden;}
+.all_comment_top{ overflow:hidden;}
+.all_comment_top img{ width:68px; height:68px; border:1px solid #d9d9d9; float:left;}
+.all_comment_top input{width:77.8%; margin-left:4.7%; height:26px; float:left; font:24px/24px "宋体"; color:#666; border:1px solid #d7d7d7; border-radius:6px; background:#f2f2f2;  resize:none; padding:22px 0 22px 3%;}
+/*视频评论*/
+.all_comment ul{ margin-top:50px;}
+.all_comment ul li{ overflow:hidden; }
+.comment_left{ float:left;}
+.comment_left img{width:68px; height:68px; border:1px solid #e2e2e2;}
+.comment_right{ width:81.0%; float:left; margin-left:4.5%;}
+.comment_right h4.user_name{ float:left; font:24px/44px "宋体";color:#17cd66;}
+.comment_right .floor{text-align:right; font:24px/44px "宋体";color:#666;}
+.comment_right p{ margin-top:8px; font:28px/44px "宋体";color:#222; padding-bottom:40px;}
+
+.comment_right_box{ position:relative; margin-bottom:40px;}
+.comment_right p.time_and_comment{width:100%; margin:0; padding:0; position:absolute;bottom:0; left:0; }
+.time_and_comment span.time{;color:#666; background:url(/res/images/2222.png) no-repeat -14px -171px; float:left;}
+.time_and_comment span.small_comment,.time_and_comment span.zan{ float:right;background:url(/res/images/2222.png) no-repeat 0px 0px; margin-left:3%;}
+.time_and_comment span{ font:20px/24px "宋体";display:block; padding-left:35px; }
+.time_and_comment span a{ color:#000;}
+.time_and_comment span.zan{ background-position:-14px -199px;}
+.time_and_comment span.small_comment{ background-position:-14px -225px;}
+
+.comment_right .anyone_comment{width:96%; float:left;margin:0 0 40px 0; background:#f2f2f2;border-radius:8px;}
+.comment_right .anyone_comment li .comment_left img{ margin:24px 0 0 24px;}
+.comment_right .anyone_comment li .comment_right_box h4{ color:#666;}
+.comment_right .anyone_comment li .comment_right{width:71%; margin:24px 20px 0 24px;}
+.comment_right .anyone_comment li .comment_right .comment_right_box{ margin-bottom:16px;}
+.anyone_comment a.ul_down{ display:block; margin-bottom:27px;margin-top:24px; font:28px/28px "宋体"; color:#17cd66; text-align:center; padding-bottom:0;}
+
+.comment_right .anyone_comment li .comment_right .small_comment{ width:24px; height:24px; padding-left:5px;}
+/*分享*/
+.fixed_comment_box{width:94%; height:69px; padding:9px 3%; border-top:2px solid #d7d7d7; background:#f2f2f2; position:fixed; bottom:0; left:0; z-index:10000000;}
+.fixed_comment_box .write_text{ width:77.6%;height:24px;padding:21px 3%;  border:#d7d7d7 solid 1px; background:#fff;font:24px/24px "宋体"; color:#666; border-radius:7px; border:1px solid #d9d9d9; resize:none; float:left;}
+
+.fixed_comment_box .take_a_comment{ width:14.2%;height:60px; display:block; text-align:center; background:#17cd66; margin-left:1.7%; float:left; margin-top:5px; border-radius:7px; font:28px/60px "宋体";color:#fff;} 
+/*删除/禁用评论*/
+.YD_video .comment_left .buliding_no a{ color:#000; font-size:22px; text-align:center; display:inline-block; width:100%; margin-top:20px;}
+/*文章评论*/
+.YD_video .blockBox .blockTitle2{ background:#FFF; margin-top:40px; height:40px; padding-bottom:17px;}
+.YD_video .blockBox .blockTitle2 h3{height:30px; font:30px/30px "宋体";color:#17cd66; border-left:4px solid #17cd66; padding-left:9px;}

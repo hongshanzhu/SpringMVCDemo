@@ -1,0 +1,19 @@
+diff a/web/css/index-utf8.css b/web/css/index-utf8.css	(rejected hunks)
+@@ -107,7 +107,7 @@
+ .imgTSList img{ display:block;float:left;}
+ .imgTSList .txtBlock{ width:220px;margin-left:235px;padding-top:9px;}
+ .imgTSList a{ font:bold 16px/24px "Microsoft Yahei";}
+-.imgTSList .summary{ height:95px;padding:9px 0 0;color:#777;font:14px/25px "Microsoft Yahei";overflow:hidden;}
++.imgTSList .summary{ height:75px;padding:9px 0 0;color:#777;font:14px/25px "Microsoft Yahei";overflow:hidden;}
+ 
+ 
+ /*注册页=================================================================*/
+@@ -137,7 +137,7 @@
+ .digestList .summary{ height:50px;font:14px/24px "Microsoft Yahei";overflow:hidden;}
+ 
+ /*商品详情页=================================================================*/
+-.gitPic{ width:398px;height:257px;line-height:257px;text-align:center;border:1px solid #ddd;float:left;}
++.gitPic{ width:400px;height:267px;line-height:257px;text-align:center;border:1px solid #ddd;float:left;}
+ .gitInfo{ margin-left:440px;}
+ .gitInfo h1{ height:43px;font:24px/24px "Microsoft Yahei";}
+ .gitInfo .price{ height:34px;font-size:14px;border-bottom:1px solid #ddd;}

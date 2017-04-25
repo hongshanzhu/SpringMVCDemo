@@ -1,0 +1,60 @@
+.content_top h2{ font:16px/55px 'Microsoft Yahei';color:#000b03;}
+.content_top{width:100%; float:right;}
+.content_top_border{height:3px; background-color:#3cb95a;border-bottom:1px solid #b1e3bd; border-top:1px solid #b1e3bd; }
+.content_header{ height:35px;margin-top:19px;} 
+.content_header h3,.content_mainer h3{color:#000b03; float:left;font:14px/35px 'Microsoft Yahei';}
+.content_header input{ padding:0 9px; font:12px/33px "宋体"; color:#666;width:863px; float:right;height:33px;}
+
+.container .main.pt20{ border:none !important;}
+
+.content_mainer{width:100%; float:left;}
+.content_mainer_right{width:883px; float:right;}
+
+.content_mainer textarea{width:861px;height:88px;padding:5px 10px; color:#666; resize:none;font:14px/25px 'Microsoft Yahei';}
+.content_mainer .text_num{ text-align:right; font:12px/35px 'Microsoft Yahei'; color:#666;}
+.content_mainer .text_num input{ color:#ff4242; border:none;width:32px; text-align:right;}
+input,textarea{ outline:0 none;border:1px solid #d5d5d5;}
+
+.main_and_tel{ overflow:hidden;}
+.content_mainer_right_mail{ margin:0 50px 0 1px;}
+.content_mainer_right_mail span,.content_mainer_right_tel span{ padding-left:24px; background:url(/res/images/mail-and-tel.png) no-repeat; font:14px/30px 'Microsoft Yahei';color:#3cb95a;}
+.content_mainer_right_mail input,.content_mainer_right_tel input{ width:195px; height:30px; padding-left:5px; font:12px/30px 'Microsoft Yahei';}
+
+.content_mainer_right_tel span{ background-position:left -19px;}
+.content_mainer_right_mail,.content_mainer_right_tel{ height:30px;padding:21px 0; float:left;}
+
+.content_mainer_right_bottom{font:12px/30px "宋体";color:#666; }
+.content_mainer_right_bottom em{ color:#ff4242;}
+
+.btn_box{ padding:20px 0 28px; height:31px;}
+.btn_box .btn{float:right; width:100px; height:31px; background-color:#35a2ca; border:0; border-radius:3px; color:#fff; font-family:'Microsoft Yahei'; cursor:pointer;}
+
+.content_bottom{width:100%; float:left}
+.content_bottom h3{color:#000c03; text-align:left;margin-top:15px;font:15px/45px 'Microsoft Yahei';}
+
+.content_bottom .news_Reply{width:900px; border:1px solid #e0e0e0;float:left; padding:10px 28px 0; font-family:'Microsoft Yahei'; position:relative;}
+.content_bottom .news_Reply ul{ border-top:1px dashed #dfdfdf;}
+.content_bottom .news_Reply ul li.list_style1{font-size:12px;color:#666; margin-top:15px;}
+.content_bottom .news_Reply ul li.list_style1 em{ color:#ff4242;}
+
+.content_bottom .news_Reply ul li.list_style2 {font-size:14px;color:#000c03;}
+.content_bottom .news_Reply ul li.list_style5{font-size:14px;color:#000c03;}
+
+.content_bottom .news_Reply ul li.list_style3 p{ font-size:12px; font-family:"宋体"; color:#666;}
+
+.content_bottom .news_Reply ul li.list_style4 span{ font-size:12px;color:#3cb95a;}
+.content_bottom .news_Reply ul li.list_style4 em{font-size:12px;color:#666; float:right;}
+
+.content_bottom .news_Reply ul li.list_style2{margin-top:18px;}
+.content_bottom .news_Reply ul li.list_style3{margin-top:15px;}
+.content_bottom .news_Reply ul li.list_style4{margin-top:28px;}
+.content_bottom .news_Reply ul li.list_style5{margin:15px 0 28px;}
+
+.content_bottom .news_Reply ul:first-child{ border:0;}
+
+.More_Comment{ float:right; margin:18px 0 22px;}
+
+.More_Comment input{ width:100px; height:31px;border-radius:4px;border:0; font-size:14px; font-family:'Microsoft Yahei'; color:#fff; background-color:#35a2ca; cursor:pointer;}
+
+.zheceng{width:900px; height:10px; position:absolute; top:5px; left:28px; background:#FFF;}
+

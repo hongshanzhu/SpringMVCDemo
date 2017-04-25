@@ -1,0 +1,89 @@
+a{ color:#222;}
+a:hover{ color:#3cb95a;}
+.header{ width:100%;height:30px;color:#ccc;background:#333;zoom:1;position:relative;}
+.header a{ color:#ccc;}
+.header a:hover{ color:#fff;}
+.headBox{ width:1000px;height:30px;margin:0 auto;position:relative;}
+.spaceLine{ padding:0 8px;color:#d3d3d3;}
+.spaceLine2{ width:2px;margin:0 8px;background:url(../images/topbarbg.jpg) no-repeat;}
+.headBox_div_headLeft{ font:100 14px/30px 'Microsoft Yahei';float:left;overflow:hidden;}
+.headBox_div_headRight{ padding:8px 0 0;font:100 14px/14px 'Microsoft Yahei';text-align:right;white-space:nowrap;float:right;position:relative;}
+.headBox_div_headRight .toLoign,.headBox_div_headRight .spaceLine,.headBox_div_headRight a{ float:left;}
+
+.header2{ width:100%;background:#3cb95a;}
+.headBox2{ width:1000px;height:80px;margin:0 auto;}
+.headBox2 .siteLogo{ width:184px;height:51px;margin:14px 0 0;float:left;overflow:hidden;}
+.headBox2 .siteLogo a{ height:51px;text-indent:-10000em;background:url(../images/siteLogo.png) no-repeat;display:block;}
+
+.headBox2 a.presonCenter{ width:141px;height:40px;margin:20px 0 0 10px;text-indent:-999em;background:url(../images/bg001.png) no-repeat;display:block;float:left;overflow:hidden;}
+
+.nav{ padding-top:32px;float:right;}
+.navLink{ margin-right:-16px;}
+.navLink li{ height:29px;margin:0 16px 0 15px;display:inline;float:left;}
+.navLink li.current{ border-bottom:4px solid #fff;}
+.navLink a{ color:#fff;font:18px/18px 'Microsoft Yahei';}
+
+.container{ padding-bottom:30px;background:#eef6e3;zoom:1;overflow:hidden;}
+.container:after{ content:".";display:block;height:0;clear:both;visibility:hidden;}
+.main{ width:960px;margin:0 auto;padding:0 20px;background:#fff;zoom:1;overflow:hidden;}
+.main a{ color:#595959;}
+.main a:hover{ color:#3cb95a;}
+
+.mt30{ margin-top:30px;}
+.mt20{ margin-top:20px;}
+.mt13{ margin-top:13px;}
+.mt14{ margin-top:14px;}
+.mt15{ margin-top:15px;}
+.mt5{ margin-top:5px;}
+.pt20{ padding-top:20px;}
+.pt60{ padding-top:60px;}
+.bdT4{ border-top:4px solid #3cb95a;zoom:1;}
+
+.block,.blockTitle,.blockBody{ clear:both;zoom:1;overflow:hidden;}
+.blockTitle{overflow:visible;}
+
+.blockLeft1{ height:235px;border-bottom:1px solid #ddd;}
+.blockTitle h3{ font:100 20px/20px 'Microsoft Yahei';float:left;}
+.blockTitle1 h3 a{ color:#3cb95a;}
+.blockTitle a.subMark{ width:20px;height:20px;text-indent:-99em;background:url(../images/icon001.png) no-repeat;float:right;overflow:hidden;}
+.blockTitle1{ height:35px;color:#3cb95a; position:relative;}
+.blockTitle2 h3{ font:100 24px/24px "Microsoft Yahei";float:none;}
+.blockTitle2 .channelSummary{ height:34px;padding-top:16px;font:14px/14px "Microsoft Yahei";}
+.blockTitle3{ height:35px;}
+.blockTitle3 h3{ color:#3cb95a;}
+.blockTitle3 .submark{ color:#3cb95a;font:14px/20px "Microsoft Yahei";float:right;}
+.blockBody{ clear:both;zoom:1;}
+
+
+/*我要提问按钮*//*我要发布按钮*/
+.blockTitle1 .btn{width:100px; height:30px;color:#fff; border:none;background:#35a2ca;font:14px/30px "Microsoft Yahei";cursor:pointer;border-radius:3px;position:absolute; right:40px; top:-5px; }
+.classify .btn{ width:140px; height:40px; color:#fff;border:none;background:#35a2ca;font:16px/40px "Microsoft Yahei"; cursor:pointer;float:right;}
+.blockTitle1 .btn:hover,.classify .btn:hover{ background:#09F;}
+
+
+
+		/*新闻标题列表*/
+.newsTitleLink{ overflow:hidden;}
+.newsTitleLink li{ width:100%;height:33px;padding:0 0 0 11px;font:100 16px/16px 'Microsoft Yahei';background:url(../images/dian.png) 0 5px no-repeat;float:left;overflow:hidden;}
+.newsTitleLink li a{ text-decoration:none;}
+/*文章页*/
+.main2{ width:1000px;margin:0 auto;background:none;}
+.guide{ height:70px;color:#999;font:14px/70px "Microsoft Yahei";}
+
+.artcleTitle{ height:80px;font:700 24px/80px "Microsoft Yahei";text-align:center;border-bottom:1px dashed #ccc;}
+.article .articleInfo{ height:42px;color:#ddd;font:14px/42px "Microsoft Yahei";text-align:center;border-bottom:1px dashed #ccc;}
+.article .articleInfo span{ padding:0 12px;color:#999;}
+.article .articleInfo a{ color:#999;}
+
+/*分页*/
+.paging{ padding:20px 0;text-align:center;border-bottom:1px solid #ddd;zoom:1;overflow:hidden;}
+.paging span{ color:#aaa;}
+.paging a,.paging span{ height:38px;line-height:38px;padding:0 15px;margin-right:5px;border:1px solid #ddd;text-decoration:none;display:inline-block;overflow:hidden;}
+.paging span.current{ color:#fff;background:#ff4242;border-color:#ff4242;}
+
+/*.bottom-pager{ padding:20px 0 40px;text-align:center;}
+.bottom-pager a,.bottom-pager span{ padding:11px 15px;margin:0 5px 0 0;font:14px/14px "Microsoft Yahei";border:1px solid #ddd;text-decoration:none;text-align:center;vertical-align:middle;display:inline-block;}
+.bottom-pager span{ color:#fff;border-color:#ff4242;background:#ff4242;}
+.bottom-pager a:hover{ background:#f2f8ff;}
+*/
+.pagingTips{ margin:10px 0 0;color:#888;font:12px/24px "Microsoft Yahei";text-align:center;overflow:hidden;}

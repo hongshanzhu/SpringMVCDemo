@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>多人聊天室</title>
+<style>
+html, body, h1, h2, h3, h4, h5, h6, p, a, span, strong, em, ul, li, ol, div, form {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+html, body {
+	overflow-x:hidden;
+	font-size: 14px;
+	width:100%;
+	height: 100%;
+}
+.content {
+	width: 100%;
+	height: 100%;
+}
+.header {
+	width: 100%;
+	height: 7%;
+	background: #3d3d3d;
+	color: #fff;
+	position: relative;
+}
+.head_center {
+	height: 100%;
+	margin: 0 auto;
+	max-width: 990px;
+	position: relative;
+}
+.head_left {
+	position: absolute;
+	left: 0.6rem;
+	top: 50%;
+	margin-top: -0.5rem;
+}
+.head_right {
+	position: absolute;
+	right: 0.6rem;
+	top: 50%;
+	margin-top: -0.5rem;
+}
+.head_right a {
+	color: #fff;
+}
+.main_comment {
+	width: 100%;
+	height: 85%;
+	background: #f0eff4;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.foot_chatting {
+	width:100%;
+	height:8%;
+	border-top:0.1rem #666 solid;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.center_box {
+	width:95%;
+	height:100%;
+	max-width:990px;
+	margin:0 auto;
+	position:relative;
+}
+.take_comment {
+	width:62%;
+	height:2rem;
+	border:0.1rem solid #d6d6d6;
+	color:#666;
+	font-weight:600;
+	border-radius:1rem;
+	position:absolute;
+	left:3%;
+	top:50%;
+	margin-top:-1.1rem;
+	padding:0 0 0 3%;
+}
+.take_submit {
+	width:25%;
+	height:2.2rem;
+	border:0.1rem solid #d6d6d6;
+	background:#fff;
+	border-radius:1rem;
+	color:#666;
+	font-size:1rem;
+	font-weight:600;
+	position:absolute;
+	right:3%;
+	top:50%;
+	margin-top:-1.1rem;
+}
+</style>
+</head>
+<body>
+<div class="content">
+  <div class="header">
+    <div class="head_center">
+      <div class="head_left"> Websocket多人聊天室 </div>
+      <div class="head_right"> <a href="">彼得潘</a> <span>|</span> <a href="">退出</a></div>
+    </div>
+  </div>
+  <div class="main_comment">
+    <div class="foot_chatting">
+      <div class="center_box">
+        <input type="text" placeholder="请输入聊天内容，按Ctrl提交" class="take_comment">
+        <button type="button" class="take_submit">提交</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

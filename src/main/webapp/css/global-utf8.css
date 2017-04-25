@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {margin:0;padding:0}
+body{ color:#2d2d2d;font:12px Microsoft Yahei,\5b8b\4f53,Arial,sans-serif;font-weight:100;background:#fff;-webkit-text-size-adjust:100%;}
+a{ color:#2d2d2d;text-decoration:none;}
+a:hover{ color:#4d738b;text-decoration:none;}
+em{ font-style:normal}
+li{ list-style:none}
+img{ border:0;vertical-align:middle;}
+header,footer,nav,article,section,aside{ display:block;}
+.clearTY{ *zoom:1;}
+.clearTY:after{display:table;clear:both;content:"";}  
+.layout {width:1000px;}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:12px;
+}
+p {
+	word-wrap:break-word
+}
+.undis {
+	display:none
+}
+.dis {
+	display:block
+}
+.ind {
+	text-indent:2em
+}
+.Q-red a, a.Q-red {
+	color:#bd0a01
+}
+.Q-black a, a.Q-black {
+	color:#000
+}
+.layout:after, .hd:after, .bd:after, .ft:after, .cf:after, .Q-tList:after, .Q-tList ul:after, .Q-tList ol:after, .Q-pList:after, .Q-pList ul:after, .Q-tpList:after, .Q-tpList ul:after, .Q-tpWrap:after {
+	content:"";
+	display:table;
+	clear:both
+}
+.mt10{ margin-top:10px}
+.mb10{ margin-bottom:10px}
+header,section,nav,footer,article{ display:block;margin:0;padding:0;}

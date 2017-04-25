@@ -1,0 +1,44 @@
+@import 'common.css';
+@import 'comment.css';
+/*文章页3*/
+/*.articlePage .main{ padding:0 20px;}*/
+.article{ width:650px;padding:0 20px 0 20px;border-right:1px solid #ddd;float:left;overflow:hidden; margin-top:20px;}
+	
+.articleContent{ table-layout:fixed;border-collapse:collapse;border-spacing:0; width:100%;}
+.articleContent td{ padding:18px 0;font:16px/26px "微软雅黑";overflow:hidden;}
+.articleContent p{ padding:5px 0;text-indent:2em;}
+ 
+
+.articleContent td h3{padding:5px 0;font:16px/26px "Microsoft Yahei";}
+.articleContent img{ width:100%;height:auto;margin:4px auto 0;display:block;}
+.pageGuide{ padding:0 0 10px;border-bottom:1px dashed #ccc;border-top:1px dashed #ccc;overflow:hidden;}
+.pageGuide .title{ height:50px;font:16px/50px "Microsoft Yahei";}
+.pageGuideList{ margin:0 -10px 0 0;}
+.pageGuideList li{ width:318px;height:38px;margin:0 10px 10px 0;font:14px/38px "Microsoft Yahei";border:1px solid #ddd;float:left;zoom:1;position:relative;}
+.pageGuideList i{ width:38px;height:38px;margin:-1px 10px 0 -1px;font:normal 14px/38px Arial;text-align:center;border:1px solid #ddd;display:block;float:left;position:relative;z-index:10;}
+.pageGuideList .current i{ color:#fff;background:#ff4242;border-color:#ff4242;}
+
+
+.shareBox{ height:40px;padding:20px 0 35px;overflow:hidden;}
+.shareBox p{ text-align:left;font:14px/40px "Microsoft Yahei"; float:left;}
+.shareBox a{ width:21px; height:20px; display:block; float:left; margin:10px 0 0 5px; cursor:pointer;background:url(/res/images/fenxiang.png) no-repeat;}
+.shareBox a.weibo{background-position:left center;}
+.shareBox a.kongjian{background-position: -24px center;}
+.shareBox a.QQhaoyou{background-position: -48px center;}
+.shareBox a.xinlang{background-position: -74px center;}
+.shareBox a.weixin{background-position: -99px center;}
+.shareBox a.collect{ background:#35a2ca url(/res/images/star.png) no-repeat 10px center;width:34px; height:30px; text-align:left;padding-left:27px;margin-top:5px;border-radius:5px;color:#FFF;float:right; font:12px/30px "Microsoft Yahei";}
+
+
+
+.newsTitleLink2 li{ width:314px;display:inline;}
+
+.aside{ width:230px;float:right;margin-right:20px;}
+.aside_fixed{ position:fixed;}
+.articlaRankList{ padding:20px 0 0 25px;border-top:1px solid #ddd;background:url(../images/bg002.png) 0 20px no-repeat;}
+.articlaRankList li{ height:34px;font:14px/14px "Microsoft Yahei";white-space:nowrap;}
+
+.articleCommentPage .paging{ padding:20px 0 30px;border-top:1px solid #ddd;}
+.articleCommentPage .artcleTitle a{ margin-left:10px;font:100 14px/80px "Microsoft Yahei";vertical-align:top;}
+.articleCommentPage .main .article h1{ line-height:80px;padding:0;}
+

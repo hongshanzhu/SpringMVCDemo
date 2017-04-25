@@ -1,0 +1,19 @@
+html,body{width:100%; height:100%; font-family:"微软雅黑";font-size:14px;}
+body,li,a,ul,ol,h1,h2,h3,h4,h5,h6,span,div,p,em,strong,input,button{margin:0;padding:0;}
+body{ background:#fff;}
+li{ list-style:none;}
+a{ text-decoration: none;}
+.content{width:100%;}
+.user_content{width:95%;height:8rem;padding-top:1.5rem; border:0.1rem solid #000; margin:0.5rem auto 0; position:relative;}
+.user_left{width:40%; float:left;}
+.user_left img{width:6rem;height:6rem; border:0.1rem solid #d7d7d7; margin-left:0.5rem;}
+.user_left span{ display:inline-block; font-size:1rem; margin-left:0.2rem;}
+.user_right{width:60%; float:left;}
+.user_right em{ font-style:normal; display:inline-block;position:absolute; bottom:1.8rem;left:40%;}
+.user_right strong{ font-weight:500; display:inline-block; color:#ff5540;}
+
+.more_list{width:95%; margin:3.2rem auto 0;}
+.more_list li{  height:2.4rem; border:0.1rem solid #d7d7d7; font-size:1.2rem; border-bottom:none; padding-left:0.5rem;line-height:2.4rem;}
+.more_list li:last-child{ border-bottom:0.1rem solid #d7d7d7;}
+.more_list li a{ display:block;width:100%;height:100%; color:#222;}
+.more_list li a span{width:0.6rem; height:1rem; margin-top:0.8rem; float:right;margin-right:1rem; background:url(../images/turn_right.png) no-repeat; background-size:100% 100%;}

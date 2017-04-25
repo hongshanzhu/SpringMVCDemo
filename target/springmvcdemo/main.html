@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="/css/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="/css/themes/icon.css">
+    <!--<link rel="stylesheet" type="text/css" href="demo.css">-->
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.easyui.min.js"></script>
+
+    <script>
+        var height=$(window).height();
+        var width=$(window).width();
+        $(function () {
+            $("#tabs").tabs({
+                width: $("#tabs").parent().width(),
+                height: $(window).height() -10
+            });
+            addTabs("欢迎","/common/welcome.do");
+        });
+
+        function addTabs(title, url) {
+            if ($('#tabs').tabs('exists', title)) {
+                $('#tabs').tabs('select', title);
+            } else {
+                var closeEnable=true;
+                var content = '<iframe scrolling="auto" frameborder="0" src="' + url + '" style="width:'+(width -20)+'px;height:'+(height -50)+'px;"></iframe>'
+                if(title=='欢迎'){
+                    closeEnable=false;
+                }
+                $('#tabs').tabs('add', {
+                    title: title,
+                    content: content,
+                    //href:url,
+                    closable:closeEnable,
+                })
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="tabs"></div>
+</body>
+</html>

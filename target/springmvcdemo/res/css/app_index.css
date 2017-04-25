@@ -1,0 +1,31 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {margin:0;padding:0}
+li{ list-style:none;}
+a{ text-decoration:none;}
+body.wap_art{ font-size:32px; margin:0 4%;}
+
+strong{ color:#000;}
+
+.articleText img{ width:100%;}
+
+.articleText p{ color:#666;}
+
+.newsContentBox h1.articleTitle{ margin-top:20px; font-size:36px; color:#222;}
+.newsContentBox p,.newsContentBox h3,.articleText table{ margin-top:20px;}
+
+.articleInfo_time{ float:right; font-size:28px; margin-top:8px;	}
+
+.articleInfoBox span{ color:#777; font-size:24px;}
+
+.articleInfoBox strong{ font-size:30px;}
+
+
+/*APP视频*/
+iframe{ width:100% !important;}
+.video_introduction span{font-size:34px; color:#3cb95a; }
+.video_introduction p{line-height:48px;}
+
+
+/*分页标题*/
+.articleText .paging_head{height:60px; margin:7px 0 4px; background:url(/res/images/paging_head.png) no-repeat; overflow:hidden;}
+.articleText .paging_head span{width:100px;font:34px/60px "宋体";color:#fff; margin-left:30px; float:left; display:block;}
+.articleText .paging_head p{width:12em;height:60px;font:34px/60px "宋体"; overflow:hidden;color:#fff;margin:0 0 0 7px;float:left; text-indent:0; padding:0; margin-right:5px;}

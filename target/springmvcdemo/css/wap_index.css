@@ -1,0 +1,94 @@
+@import 'globle_m_utf8.css';
+@import 'idangerous.swiper.css';
+@import 'comment.css';
+
+.mt10{ margin-top:10px}
+.mb10{ margin-bottom:10px}
+
+body{ color:#434343;ffont-size:14px;ont-family:'Microsoft Yahei';background:#fff;}
+
+a,a:hover,a:visited{ color:#434343;}
+::-webkit-scrollbar{ width:0;} 
+
+.main{ overflow:hidden;}
+.header{ height:90px;zoom:1;overflow:hidden;}
+.siteLogo{ width:204px;height:60px;margin:15px 0 0 20px;float:left;}
+.header a.loginReg{ width:140px;height:50px;margin:20px 20px 0 0;color:#fff;font:24px/50px 'Microsoft Yahei';text-align:center;background:#3cb95a;
+-webkit-border-radius:3px;border-radius:3px;display:block;float:right;}
+		
+	/*新闻焦点图*/
+.focusPic1{ width:100%;height:320px;border:1px solid #cfcfcf;-moz-box-shadow:0 0 5px #aaa;-webkit-box-shadow:0 0 5px #aaa;box-shadow:0 0 5px #aaa;background:#fff;zoom:1;overflow:hidden;}
+.focusPic1 .swiper-wrapper{ white-space:nowrap;}
+.focusPic1 li{ width:100%;position:relative;overflow:hidden;}
+.focusPic1 a{ -webkit-tap-highlight-color:rgba(0,0,0,0);}
+.focusPic1 .focus1Title{ width:100%;height:60px;color:#fff;font:100 24px/60px 'Microsoft Yahei';text-indent:20px;background:rgba(0,0,0,0.6);position:absolute;left:0;bottom:0;z-index:1;}
+.focusPic1 .focusPic1Nav{ height:14px;position:absolute;right:10px;bottom:21px;z-index:99;overflow:hidden;}
+.focusPic1 .focusPic1Nav .swiper-pagination-switch{ width:14px;height:14px;margin-right:10px;-webkit-border-radius:7px;border-radius:7px;background:#bcc1c6;display:inline-block;float:left;overflow:hidden;}
+.focusPic1 .focusPic1Nav .swiper-visible-switch{ background:#ff4242;}
+
+	/*盒子样式 */
+.blockBox{ zoom:1;overflow:hidden;position:relative;}
+.blockTitle2{ height:80px;padding:0 20px;background:#e0e0e0;}
+.blockTitle2 h3{ color:#777;font:100 28px/80px 'Microsoft Yahei';}
+
+	/*标题列表*/
+.newsBox{ overflow:hidden;}
+.newsBoxWrapper{ width:100%;overflow:hidden;}
+
+.imgTSList{ width:100%;overflow:hidden;}
+.imgTSList li{ height:160px;border-bottom:1px solid #ddd;overflow:hidden;}
+.imgTSList .picBox{ width:180px;height:128px;margin:20px;float:left;}
+.imgTSList .picBox img{ width:180px;height:128px;}
+.imgTSList .textBox{ height:120px;margin:0 0 0 220px;padding:20px 10px 0 0;position:relative;}
+.imgTSList .textBox a{ display:block;}
+.imgTSList .textBox h5{ font:100 28px/30px 'Microsoft Yahei';overflow:hidden;}
+.imgTSList .textBox .summary{ color:#999;font:24px/24px 'Microsoft Yahei';position:absolute;left:0;bottom:0;}
+.imgTSList .textBox span{ float:left;}
+.imgTSList .textBox .comment{ margin-left:30px;}
+.imgTSList .textBox .comment .iconComment{ width:29px;height:22px;background:url(../images/wap_bg002.png) 0  2px no-repeat;display:block;float:left;}
+
+	/*分页*/
+.paging{ padding:30px 20px;text-align:center;overflow:hidden;}
+.paging a,.paging span{ padding:0 28px;font:28px/58px 'Microsoft Yahei';border:1px solid #ddd;background:#f5f5f5;display:inline-block;}
+.paging select{ width:176px;height:58px;font:28px/58px 'Microsoft Yahei';border:1px solid #ddd;}
+.paging select option{ text-align:center;}
+.paging span{ color:#999;}
+.paging .prev{ float:left;}
+.paging .next{ float:right;}
+
+.footer{ height:107px;padding-top:33px;color:#fff;font:24px/26px 'Microsoft Yahei';text-align:center;background:#3cb95a;}
+.footer a{ color:#fff;}
+.footer .skipLink{ height:52px;overflow:hidden;}
+.footer .skipLink a{ margin:0 35px;}
+.footer a.toPC{ padding-left:33px;background:url(../images/wap_bg003.png) 0 3px no-repeat;}
+.footer a.myOpinion{ padding-left:34px;background:url(../images/wap_bg004.png) 0 2px no-repeat;}
+
+/*文章页*/
+.artPageHead{ height:51px;padding:19px 20px 0;color:#fff;background:#3cb95a;overflow:hidden;}
+.artPageHead .returnPrev{ width:17px;height:33px;background:url(../images/wap_bg005.png) no-repeat;display:block;float:left;}
+.artPageHead p{ font:28px/32px 'Microsoft Yahei';text-align:center;}
+.artPageHead a.shareIcon,.artPageHead a.collectIcon{ height:32px;text-indent:-999em;display:block;float:right;overflow:hidden;}
+.artPageHead a.shareIcon{ width:32px;background:url(../images/wap_bg007.png) no-repeat;}
+.artPageHead a.collectIcon{ width:36px;margin-right:40px;background:url(../images/wap_bg006.png) no-repeat;}
+
+.newsContentBox{ margin:0 20px;overflow:hidden;}
+.articleTitle{ margin:28px 0 0;font:100 38px/46px 'Microsoft Yahei';}
+.articleInfoBox{ height:62px;padding-top:17px;font:100 24px/24px 'Microsoft Yahei';border-bottom:1px solid #ddd;overflow:hidden;}
+.articleInfo{ color:#999;float:left;}
+.commentCount{ color:#35a2ca;float:right;}
+.commentCount .commentIcon{ width:29px;height:22px;background:url(../images/wap_bg008.png) 0  2px no-repeat;display:block;float:left;}
+
+.articleText{ width:100%;}
+.articleText td{ padding:12px 0;text-align:left;overflow:hidden;}
+.articleText td p{ padding:15px 0;font:32px/48px 'Microsoft Yahei';text-indent:2em;}
+.articleText td h3{padding:15px 0;font:32px/48px 'Microsoft Yahei';}/*纠正标题*/
+
+.articleText td img{ max-width:100%;margin:0 auto;display:block;}
+.articleText td iframe{ margin:0 auto;display:block;}
+
+.txtList{ margin:0 20px -1px;overflow:hidden;}
+.txtList li{ height:80px;padding-right:20px;font:100 28px/80px 'Microsoft Yahei';background:url(../images/wap_bg009.png) 100% center no-repeat;border-bottom:1px solid #ddd;overflow:hidden;}
+
+.newscommon_box{ margin:20px;}
+.newscommon_box .comment_post ul li textarea{ width:578px;}
+.addd_more a{ width:auto;margin-top:30px;border-top:1px solid #ddd;}
