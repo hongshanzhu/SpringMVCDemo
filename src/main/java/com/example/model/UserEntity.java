@@ -15,6 +15,7 @@ public class UserEntity {
     private String lastName;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)// fix duplicate key
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;

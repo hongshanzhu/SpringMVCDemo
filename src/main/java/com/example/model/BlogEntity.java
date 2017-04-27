@@ -1,7 +1,6 @@
 package com.example.model;
 
 import javax.persistence.*;
-
 /**
  * Created by zhs on 2017/4/25.
  */
@@ -15,6 +14,7 @@ public class BlogEntity {
     private UserEntity userByUserId_0;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)// fix duplicate key
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
