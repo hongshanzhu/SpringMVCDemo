@@ -54,6 +54,8 @@ public class MainController {
 
         // 数据库中添加一个用户，该步暂时不会刷新缓存
         //userRepository.save(userEntity);
+        System.out.println(userEntity.getFirstName());
+        System.out.println(userEntity.getLastName());
 
         // 数据库中添加一个用户，并立即刷新缓存
         userRepository.saveAndFlush(userEntity);

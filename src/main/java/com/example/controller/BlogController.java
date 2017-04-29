@@ -5,10 +5,12 @@ import com.example.model.UserEntity;
 import com.example.repository.BlogRepository;
 import com.example.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
@@ -48,7 +50,7 @@ public class BlogController {
         // 打印博客标题
         System.out.println(blogEntity.getTitle());
         // 打印博客作者
-        System.out.println(blogEntity.getUserByUserId_0().getNickname());
+        System.out.println(blogEntity.getUserByUserId().getNickname());
         // 存库
         blogRepository.saveAndFlush(blogEntity);
         // 重定向地址
@@ -63,26 +65,27 @@ public class BlogController {
         return "redirect:/admin/blogs";
     }
 
-//    // 修改博文内容，页面
-//    @RequestMapping("/admin/blogs/update/{id}")
-//    public String updateBlog(@PathVariable("id") int id, ModelMap modelMap) {
-//        // 是不是和上面那个方法很像
-//        BlogEntity blog = blogRepository.findOne(id);
-//        List<UserEntity> userList = userRepository.findAll();
-//        modelMap.addAttribute("blog", blog);
-//        modelMap.addAttribute("userList", userList);
-//        return "admin/updateBlog";
-//    }
+    // 修改博文内容，页面
+    @RequestMapping("/admin/blogs/update/{id}")
+    public String updateBlog(@PathVariable("id") int id, ModelMap modelMap) {
+        // 是不是和上面那个方法很像
+        BlogEntity blog = blogRepository.findOne(id);
+        List<UserEntity> userList = userRepository.findAll();
+        modelMap.addAttribute("blog", blog);
+        modelMap.addAttribute("userList", userList);
+        return "admin/updateBlog";
+    }
 
-//    // 修改博客内容，POST请求
-//    @RequestMapping(value = "/admin/blogs/updateP", method = RequestMethod.POST)
-//    public String updateBlogP(@ModelAttribute("blogP") BlogEntity blogEntity) {
-//        // 更新博客信息
-//        blogRepository.updateBlog(blogEntity.getTitle(), blogEntity.getUserByUserId_0().getId(),
-//                blogEntity.getContent(), blogEntity.getPubDate(), blogEntity.getId());
-//        blogRepository.flush();
-//        return "redirect:/admin/blogs";
-//    }
+    // 修改博客内容，POST请求
+    @RequestMapping(value = "/admin/blogs/updateP", method = RequestMethod.POST)
+    public String updateBlogP(@ModelAttribute("blogP") BlogEntity blogEntity) {
+        // 更新博客信息
+        System.out.println(blogEntity.getTitle());
+        blogRepository.updateBlog(blogEntity.getTitle(), blogEntity.getUserByUserId().getId(),
+                blogEntity.getContent(), blogEntity.getPubDate(), blogEntity.getId());
+        blogRepository.flush();
+        return "redirect:/admin/blogs";
+    }
 
     // 查看博文详情，默认使用GET方法时，method可以缺省
     @RequestMapping("/admin/blogs/show/{id}")

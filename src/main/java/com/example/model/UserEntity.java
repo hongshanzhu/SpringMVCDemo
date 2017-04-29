@@ -1,6 +1,7 @@
 package com.example.model;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 /**
  * Created by zhs on 2017/4/25.
@@ -13,9 +14,9 @@ public class UserEntity {
     private String password;
     private String firstName;
     private String lastName;
+    private Collection<BlogEntity> blogsById;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)// fix duplicate key
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
@@ -89,5 +90,14 @@ public class UserEntity {
         result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
         result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
         return result;
+    }
+
+    @OneToMany(mappedBy = "userByUserId")
+    public Collection<BlogEntity> getBlogsById() {
+        return blogsById;
+    }
+
+    public void setBlogsById(Collection<BlogEntity> blogsById) {
+        this.blogsById = blogsById;
     }
 }

@@ -1,6 +1,10 @@
 package com.example.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
+import java.util.Date;
+
 /**
  * Created by zhs on 2017/4/25.
  */
@@ -10,11 +14,11 @@ public class BlogEntity {
     private int id;
     private String title;
     private String content;
-    private String pubDate;
-    private UserEntity userByUserId_0;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date pubDate;
+    private UserEntity userByUserId;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)// fix duplicate key
     @Column(name = "id", nullable = false)
     public int getId() {
         return id;
@@ -46,11 +50,11 @@ public class BlogEntity {
 
     @Basic
     @Column(name = "pub_date", nullable = false, length = 45)
-    public String getPubDate() {
+    public Date getPubDate() {
         return pubDate;
     }
 
-    public void setPubDate(String pubDate) {
+    public void setPubDate(Date pubDate) {
         this.pubDate = pubDate;
     }
 
@@ -80,11 +84,11 @@ public class BlogEntity {
 
     @ManyToOne
     @JoinColumn(name = "user_id", referencedColumnName = "id", nullable = false)
-    public UserEntity getUserByUserId_0() {
-        return userByUserId_0;
+    public UserEntity getUserByUserId() {
+        return userByUserId;
     }
 
-    public void setUserByUserId_0(UserEntity userByUserId_0) {
-        this.userByUserId_0 = userByUserId_0;
+    public void setUserByUserId(UserEntity userByUserId) {
+        this.userByUserId = userByUserId;
     }
 }
